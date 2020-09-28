@@ -37,3 +37,24 @@ These algorithms are generally classified into two categories:
   In the worst case, we have to do `n/m` jumps and if the last checked value is greater than the element to be searched for, we perform `m-1` comparisons more for linear search. Therefore the total number of comparisons in the worst case will be `((n/m) + m-1)`. The value of the function `((n/m) + m-1)` will be minimum when `m = √n`. Therefore, the best step size is `m = √n`. Also its time complexity is O(√n).
 
 - Binary Search is better than Jump Search, but Jump search has an advantage that we traverse back only once (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the smallest element or smaller than the smallest). So in a system where binary search is costly, we use Jump Search.
+
+### Interpolation Search
+
+- Interpolation search is an improvement over binary search for instances, where the values in a sorted array are uniformly distributed. Binary search always goes to the middle element to check, while interpolation search may go to different locations according to the value of the key being searched. For example, if the value of the key is closer to the last element, interpolation search is likely to start search toward the end side.
+
+- To find the position to be searched, it uses following formula:
+
+```
+pos = lo + ((x - arr[lo]) * (hi - lo) / (arr[hi] - arr[lo]))
+arr[] - Array where elements need to be searched
+x - The element to be searched
+lo - Starting index in arr[]
+hi - Ending index in arr[]
+```
+
+- Steps
+
+1. In a loop, calculate the value of `pos` using the above formula.
+2. If it is a match, return the index of the item.
+3. If the item is less than `arr[pos]`, calculate he probe position of the left sub-array. Otherwise, calculate the same in the right sub-array.
+4. Repeat until a match is found or the sub-array reduces to zero.
