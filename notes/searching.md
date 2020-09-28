@@ -58,3 +58,11 @@ hi - Ending index in arr[]
 2. If it is a match, return the index of the item.
 3. If the item is less than `arr[pos]`, calculate he probe position of the left sub-array. Otherwise, calculate the same in the right sub-array.
 4. Repeat until a match is found or the sub-array reduces to zero.
+
+- Time complexity: If elements are uniformly distributed, then O(log(logn)). In worse case, it can take O(n).
+
+### Exponential Search
+
+- The name of the searching algorithm may be misleading as it works in O(log n) time.
+- It involves two steps: Find range where element is present and do binary search in the above range.
+- How to find the range where element may be present? The idea is to start with sub-array size 1, compare its last element with x, then try size 2, then 4 and so on until last element of a sub-array is not greater. Once we find an index i, we know that the element must be present between i/2 and i.
