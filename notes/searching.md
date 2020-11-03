@@ -1,5 +1,7 @@
 # Searching Algorithms
 
+https://www.geeksforgeeks.org/searching-algorithms/
+
 ## Intro
 
 Searching algorithms are designed to check for an element or retrieve an element from any data structure where it is stored. <br>
