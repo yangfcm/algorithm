@@ -1,12 +1,12 @@
 [submodule "cs_algo"]
 	path = cs_algo
-	url = git@github.com:yangfcm/CS-Algo.git
+	url = git@github.com:yangfcm/algorithm-csharp.git
 [submodule "js_algo"]
 	path = js_algo
-	url = git@github.com:yangfcm/js-algo-ds.git
+	url = git@github.com:yangfcm/algorithm-js.git
 [submodule "java_algo"]
 	path = java_algo
-	url = git@github.com:yangfcm/Java-Algo.git
+	url = git@github.com:yangfcm/algorithm-java.git
 [submodule "py_algo"]
 	path = py_algo
-	url = git@github.com:yangfcm/py_algo.git
+	url = git@github.com:yangfcm/algorithm-python.git
