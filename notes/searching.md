@@ -10,20 +10,18 @@ These algorithms are generally classified into two categories:
 1. **Sequential Search**: The elements are traversed sequentially and every element is checked. e.g. linear search.
 2. **Interval Search**: These algorithms are specifically designed for searching in sorted data-structures. e.g. binary search.
 
-## Algorithms
-
-### Linear Search
+## Linear Search
 
 - Just check out the element one by one, simple and straightforward.
 - Time complexity: O(n)
 - Rarely used practically because there are usually faster searching algorithms.
 
-### Binary Search
+## Binary Search
 
 - Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 - Time complexity: O(log n)
 
-### Jump Search
+## Jump Search
 
 - Like Binary Search, Jump Search is another searching algorithm for sorted arrays. The basic idea is to check fewer elements by jumping ahead by fixed steps or skipping some elements in place of searching all elements.<br>
 
@@ -40,7 +38,7 @@ These algorithms are generally classified into two categories:
 
 - Binary Search is better than Jump Search, but Jump search has an advantage that we traverse back only once (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the smallest element or smaller than the smallest). So in a system where binary search is costly, we use Jump Search.
 
-### Interpolation Search
+## Interpolation Search
 
 - Interpolation search is an improvement over binary search for instances, where the values in a sorted array are uniformly distributed. Binary search always goes to the middle element to check, while interpolation search may go to different locations according to the value of the key being searched. For example, if the value of the key is closer to the last element, interpolation search is likely to start search toward the end side.
 
@@ -63,7 +61,7 @@ hi - Ending index in arr[]
 
 - Time complexity: If elements are uniformly distributed, then O(log(logn)). In worse case, it can take O(n).
 
-### Exponential Search
+## Exponential Search
 
 - The name of the searching algorithm may be misleading as it works in O(log n) time.
 - It involves two steps: Find range where element is present and do binary search in the above range.
