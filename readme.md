@@ -1,9 +1,9 @@
 # Algorithm & Data Structure Problems And Solutions
 
 Problems, solutions, concepts and explanations about algorithm, data structure and more.<br>
-Different languages version:
+Different language versions:
 
-- [C#](https://github.com/yangfcm/CS-Algo)
-- [Java](https://github.com/yangfcm/Java-Algo)
-- [Javascript](https://github.com/yangfcm/js-algo-ds)
-- [Python](https://github.com/yangfcm/py_algo)
+- [C#](https://github.com/yangfcm/algorithm-csharp)
+- [Java](https://github.com/yangfcm/algorithm-java)
+- [Javascript](https://github.com/yangfcm/algorithm-js)
+- [Python](https://github.com/yangfcm/algorithm-python)
