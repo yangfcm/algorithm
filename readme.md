@@ -7,3 +7,9 @@ Different language versions:
 - [Java](https://github.com/yangfcm/algorithm-java)
 - [Javascript](https://github.com/yangfcm/algorithm-js)
 - [Python](https://github.com/yangfcm/algorithm-python)
+
+Documents:
+
+- [Problems List](./docs/problems.md)
+- [Searching algorithm explained](./docs/searching.md)
+- [Sorting algorithm explained](./docs/sorting.md)
