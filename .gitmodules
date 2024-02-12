@@ -10,3 +10,6 @@
 [submodule "py_algo"]
 	path = py_algo
 	url = git@github.com:yangfcm/algorithm-python.git
+[submodule "go_algo"]
+	path = go_alg
+	url = git@github.com:yangfcm/algorithm-go.git
